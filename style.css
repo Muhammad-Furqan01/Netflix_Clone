@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Bhaijaan+2:wght@800&family=Open+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BalooBhaijaan2 ,  Agbalumo;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/Assets/Images/bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.box{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+}
+nav{
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+nav img{
+    width: 114px;
+}
+#sign_in{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 6px;
+    width: 4.8rem;
+    color: white;
+    height: 32px;
+}
+/* Utility Classes */
+.index{
+    position: relative;
+    z-index: 10;
+}
+ .main_content{
+    margin: 14rem auto ;
+    width: 70vw;
+    color: white;
+}
+.sub1 h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+}
+.sub1 h2{
+    text-align: center;
+}
+.sub2{
+    margin: 15px;
+}
+.data{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    margin: 0 -5px;
+}
+#email_field{
+    height: 3rem;
+    width: 22rem;
+    border: 2px solid white;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+#get_started{
+    background-color: red;
+    color: white;
+    width: 10rem;
+    height: 3.2rem;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin: 0 5px;
+    font-weight: bolder;
+}
+.hr{
+    background-color: rgb(35, 35, 35);
+    border: 2px solid rgb(35, 35, 35);
+    height: 0.5rem;
+    width: 100%;
+}
+.section{
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+.content{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+
+}
+.para{
+    width: 50%;
+    text-align: center;
+    height: 150px;
+    margin: 170px auto;
+}
+.para h1{
+    font-weight: bolder;
+    font-size: 2.6em;
+    padding: 40px;
+}
+.sub{
+    background-color: black;
+    width: 22rem;
+    height: 7rem;
+    border: 2px solid white;
+    border-radius: 12px;
+    position: absolute;
+    left: 145px;
+    top: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+.sub img{
+    height: 5rem;
+    margin: 14px 14px;
+}
+.p{
+    margin: 25px 0;
+}
+.p p{
+    color: blue;
+}
+#section3{
+    height: 60vh;
+}
+#para{
+    margin: 100px auto;
+}
+#section5{
+    position: relative;
+    height: 50rem;
+}
+.container{
+    width: 90%;
+    position: absolute;
+    top: 10px;
+    left: 3.2rem;
+    color: white;
+}
+.qa_heading{
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+.qa_heading h1{
+    font-size: 2.4em;
+}
+.qa{
+    margin: 20px;
+}
+.element{
+    border: 2px solid rgb(45, 45, 45);
+    background-color: rgb(45, 45, 45);
+    margin: 10px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.plus{
+    margin: 12px 12px;
+}
